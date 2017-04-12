@@ -1,7 +1,7 @@
 require 'appointment'
 
 describe Appointment do
-  subject(:appointment) { described_class.new(time, "Test appointment", "50 Commercial Street London") }
+  subject(:appointment) { described_class.new(time, "Test appointment", "50 Commercial Street London")}
   let(:time) { Time.now }
 
   describe '#title' do
